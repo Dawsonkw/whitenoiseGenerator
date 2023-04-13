@@ -22,3 +22,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+ambient-noise\src\api\ApiCaller.jsx

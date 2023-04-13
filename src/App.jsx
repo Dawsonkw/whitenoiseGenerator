@@ -1,4 +1,5 @@
 import './App.css'
+import ApiCaller from './api/ApiCaller'
 import SoundHolder from './components/SoundHolder'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
 
   return (
     <div >
+      <ApiCaller />
       <h1>Dungeons and Dragons Ambient Noise App</h1>
       <SoundHolder />
     </div>
@@ -13,3 +15,5 @@ function App() {
 }
 
 export default App
+
+
