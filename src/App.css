@@ -16,8 +16,8 @@ p {
 
 .icon-holder {
     display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
     justify-content: center;
     gap: 2rem;
     
@@ -25,4 +25,16 @@ p {
 
 .individualIconBox {
     border: 2px solid white;
+}
+
+.tagHolder {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    list-style-type: none;
+}
+
+.tagContainer {
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
 }
