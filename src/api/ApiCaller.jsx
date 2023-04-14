@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 
 const maxResults = 5;
 const searchTerm = 'DnD Ambiance Music';
-const apiKey =  'AIzaSyBH3fhMeooXeqOgTgRxGQ1EE19lm2ohAm411';
+const apiKey =  import.meta.env.VITE_API_KEY;
 const API_URL  =  `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=${maxResults}&q=${searchTerm}&type=video&key=${apiKey}`;
 
 // Idea is that clicking the tags will add search terms to the URL which will then display the videos of that type
